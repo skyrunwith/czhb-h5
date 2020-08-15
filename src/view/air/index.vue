@@ -4,6 +4,7 @@
       title="首页"
       left-text=""
       left-arrow
+      style="background-color: #00558E"
       @click-left="onClickLeft"
       @click-right="onClickRight"></van-nav-bar>
   </div>
