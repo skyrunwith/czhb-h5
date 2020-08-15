@@ -12,14 +12,14 @@ const routes = [
     name: 'air',
     component: () => import('./view/air'),
     meta: {
-      title: 'tabs页'
+      title: '空气页'
     }
   },
   {
     name: 'rank',
     component: () => import('./view/rank'),
     meta: {
-      title: '排行页'
+      title: '排名页'
     }
   },
   {
@@ -33,7 +33,7 @@ const routes = [
     name: 'water',
     component: () => import('./view/water'),
     meta: {
-      title: 'other页'
+      title: '水质页'
     }
   }
 ];

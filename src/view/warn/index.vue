@@ -1,6 +1,6 @@
 <template>
   <div>
-    警告
+    预警
   </div>
 </template>
 

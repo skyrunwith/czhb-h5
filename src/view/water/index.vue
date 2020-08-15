@@ -1,6 +1,6 @@
 <template>
   <div>
-    其他
+    水质
   </div>
 </template>
 
