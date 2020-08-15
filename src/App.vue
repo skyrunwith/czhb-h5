@@ -2,17 +2,17 @@
   <div id="app">
     <router-view/>
     <van-tabbar route>
-      <van-tabbar-item replace to="/home" icon="home-o">
-        首页
+      <van-tabbar-item replace to="/home" icon="smile-o">
+        空气
+      </van-tabbar-item>
+      <van-tabbar-item replace to="/water" icon="flower-o">
+        水质
       </van-tabbar-item>
       <van-tabbar-item replace to="/rank" icon="search">
         排名
       </van-tabbar-item>
       <van-tabbar-item replace to="/warning" icon="home-o">
         预警
-      </van-tabbar-item>
-      <van-tabbar-item replace to="/other" icon="home-o">
-        其他
       </van-tabbar-item>
     </van-tabbar>
   </div>

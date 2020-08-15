@@ -1,6 +1,6 @@
 <template>
   <div>
-    排行
+    排名
   </div>
 </template>
 
