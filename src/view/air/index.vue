@@ -1,6 +1,11 @@
 <template>
   <div>
-    首页
+    <van-nav-bar
+      title="首页"
+      left-text=""
+      left-arrow
+      @click-left="onClickLeft"
+      @click-right="onClickRight"></van-nav-bar>
   </div>
 </template>
 

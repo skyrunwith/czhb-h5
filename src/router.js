@@ -6,11 +6,11 @@ Vue.use(Router);
 const routes = [
   {
     path: '*',
-    redirect: '/home'
+    redirect: '/air'
   },
   {
-    name: 'home',
-    component: () => import('./view/home'),
+    name: 'air',
+    component: () => import('./view/air'),
     meta: {
       title: 'tabs页'
     }
@@ -30,8 +30,8 @@ const routes = [
     }
   },
   {
-    name: 'other',
-    component: () => import('./view/other'),
+    name: 'water',
+    component: () => import('./view/water'),
     meta: {
       title: 'other页'
     }
